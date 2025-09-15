@@ -24,7 +24,7 @@ for _, row in df.iterrows():
         "description": row['PlanDescription']
     })
 
-ott_options = ["Netflix basic", "Netflix premium", "Amazon Prime", "Disney+", "Spotify", "SonyLiv", "Hotstar"]
+ott_options = ["Netflix", "Amazon Prime", "Spotify", "SonyLiv", "Hotstar"]
 
 # ------------------------------
 # Recommendation Function
